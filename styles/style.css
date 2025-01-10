@@ -1,0 +1,31 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 24px 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    text-decoration: none;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight:600;
+    padding: 10px 24px;
+    color: #006A50;
+}

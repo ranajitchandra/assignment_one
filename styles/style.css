@@ -8,9 +8,12 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #f4fff9;
+}
 /* Common Style */
 .btn-primary{
-    background-color: #006A50;
+    
     padding: 16px 32px;
     border-radius: 8px;
     font-weight: 600;
@@ -20,6 +23,17 @@
     color: #ffffff;
     border: none;
 }
+.headline{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 32px 0;
+}
+p{
+    line-height: 28px;
+}
+
+
+
 
 
 main{
@@ -50,6 +64,8 @@ header nav a{
     justify-content: space-evenly;
     align-items: center;
     gap: 16px;
+    margin: 32px 0;
+    border-radius: 24px;
 }
 .banner .content{
     width: 620px;
@@ -64,3 +80,69 @@ header nav a{
     font-size: 58px;
     margin: 16px 0;
 }
+.pillars{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    
+}
+.pillars div{
+    background-color: #ffffff;
+    padding: 16px;
+    border: 1px solid #e4e4e4;
+    border-radius: 16px;
+}
+.pillars div img{
+    padding: 8px 0;
+}
+.pillars div h4{
+    opacity: 0.8;
+    padding: 16px 0;
+}
+.pillars div p{
+    opacity: 0.8;
+    padding: 8px 0
+}
+.vision p{
+    opacity: 0.8;
+}
+.vision-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin: 32px 0;
+}
+.vision-boxes .box{
+    border-radius: 16px;
+    padding: 24px;
+}
+.vision-boxes .box img{
+    padding: 8px 0;
+}
+.vision-boxes .box h4{
+    opacity: 0.8;
+    padding: 16px 0;
+}
+.vision-boxes .box p{
+    opacity: 0.8;
+    padding: 8px 0
+}
+
+.idol{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-color: #ffffff;
+    padding: 30px 0 0 20px;
+    border: 1px solid #e4e4e4;
+    border-radius: 16px;
+}
+.idol h4{
+    font-weight: bold;
+    padding: 16px 0;
+}
+.idol p{
+    opacity: .8;
+    padding: 16px 0;
+}
+

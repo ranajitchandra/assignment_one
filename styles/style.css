@@ -9,7 +9,7 @@
     margin: 0;
 }
 body{
-    background-color: #f4fff9;
+    background-color: #F1F1F3;
 }
 /* Common Style */
 .btn-primary{
@@ -26,12 +26,11 @@ body{
 .headline{
     font-size: 40px;
     font-weight: bold;
-    padding: 32px 0;
+    padding: 80px 0 32px 0;
 }
 p{
     line-height: 28px;
 }
-
 
 
 
@@ -146,3 +145,34 @@ header nav a{
     padding: 16px 0;
 }
 
+
+
+.opinion-content{
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 32px;
+}
+.opinion-content table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.opinion-content table th{
+    background-color: #C6E4D6;
+    border: 1px solid #cfcfcf;
+    padding: 32px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+
+}
+.opinion-content table td{
+    border: 1px solid #cfcfcf;
+    padding: 16px;
+}
+.opinion-content table td .opt{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    background-color: #C6E4D6;
+}

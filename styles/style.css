@@ -13,7 +13,7 @@ body{
 }
 /* Common Style */
 .btn-primary{
-    
+    background-color: #006A50;
     padding: 16px 32px;
     border-radius: 8px;
     font-weight: 600;
@@ -22,6 +22,19 @@ body{
     text-decoration: none;
     color: #ffffff;
     border: none;
+    transition: .5s;
+}
+.btn-primary:hover{
+    background-color: #424242;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 16px 0;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    
 }
 .headline{
     font-size: 40px;
@@ -40,6 +53,7 @@ main{
     margin: 0 auto;
 }
 
+
 header{
     padding: 24px 0;
 }
@@ -55,7 +69,20 @@ header nav a{
     font-weight:600;
     padding: 10px 24px;
     color: #006A50;
+    transition: .5s;
 }
+header nav a:hover{
+    text-decoration: none;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight:600;
+    padding: 10px 24px;
+    color: #e9e9e9;
+}
+
+
+/* banner start */
 .banner{
     height: 560px;
     background-color: #C6E4D6;
@@ -79,6 +106,9 @@ header nav a{
     font-size: 58px;
     margin: 16px 0;
 }
+
+/* pillar start */
+
 .pillars{
     display: flex;
     justify-content: space-evenly;
@@ -87,6 +117,13 @@ header nav a{
 }
 .pillars div{
     background-color: #ffffff;
+    padding: 16px;
+    border: 1px solid #e4e4e4;
+    border-radius: 16px;
+}
+.pillars div:hover{
+    background-color: #ffecec;
+    box-shadow: inset;
     padding: 16px;
     border: 1px solid #e4e4e4;
     border-radius: 16px;
@@ -102,6 +139,9 @@ header nav a{
     opacity: 0.8;
     padding: 8px 0
 }
+
+
+/* vision start */
 .vision p{
     opacity: 0.8;
 }
@@ -114,6 +154,14 @@ header nav a{
 .vision-boxes .box{
     border-radius: 16px;
     padding: 24px;
+    transition: 0.5s;
+}
+.vision-boxes .box:hover{
+    
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 20px;
+    
 }
 .vision-boxes .box img{
     padding: 8px 0;
@@ -146,7 +194,7 @@ header nav a{
 }
 
 
-
+/* opinion start */
 .opinion-content{
     background-color: #ffffff;
     border-radius: 16px;
@@ -155,6 +203,9 @@ header nav a{
 .opinion-content table{
     border-collapse: collapse;
     width: 100%;
+}
+.opinion-content table tbody tr:hover{
+    background-color: #ececec;
 }
 .opinion-content table th{
     background-color: #C6E4D6;
@@ -175,4 +226,87 @@ header nav a{
     padding: 10px 24px;
     border-radius: 8px;
     background-color: #C6E4D6;
+}
+
+
+/* news start */
+
+.news-content{
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 48px;
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+    align-items: center;
+}
+.news-content img{
+    border-radius: 24px;
+}
+.news-content .box h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+.news-content .box img{
+   padding: 6px 0;
+}
+.news-content .box p{
+    opacity: 0.8;
+    padding: 6px 0
+}
+
+
+/* donate start */
+
+.donate-box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin: 32px 0;
+}
+.donate-box div{
+    background-color: #ffffff;
+    padding: 40px 70px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    transition: 1s;
+    
+}
+.donate-box div:hover{
+    background-color: #000000;
+    padding: 40px 70px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    
+    
+}
+.donate .donate-input{
+    width: 100%;
+    height: 48px;
+}
+.donate .donate-input{
+    width: 100%;
+    height: 48px;
+}
+
+
+
+/* footer start */
+footer{
+    text-align: center;
+}
+
+footer hr{
+    opacity: 0.8;
+}
+footer img{
+    height: 32px;
+    width: 32px;
+    padding: 16px;
 }

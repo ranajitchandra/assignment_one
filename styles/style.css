@@ -157,12 +157,9 @@ header nav a:hover{
     transition: 0.5s;
 }
 .vision-boxes .box:hover{
-    
-    border-radius: 8px;
-    border: 1px solid black;
-    padding: 20px;
-    
+    box-shadow: 1px 1px 15px   rgb(92, 92, 92);
 }
+.h
 .vision-boxes .box img{
     padding: 8px 0;
 }
@@ -186,7 +183,7 @@ header nav a:hover{
 }
 .idol h4{
     font-weight: bold;
-    padding: 16px 0;
+    
 }
 .idol p{
     opacity: .8;
@@ -291,9 +288,39 @@ header nav a:hover{
     height: 48px;
 }
 .donate .donate-input{
-    width: 100%;
+    width: 90%;
     height: 48px;
+    border: none;
+    color: #585858;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
 }
+.donate .donate-input::placeholder{
+    color: #585858;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+
+/* subscribe start */
+
+.subscribe{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    
+}
+.subscribe .subs-box{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+
+
 
 
 

@@ -34,7 +34,6 @@ body{
     text-decoration: none;
     color: #ffffff;
     border: none;
-    
 }
 .headline{
     font-size: 40px;
@@ -46,13 +45,16 @@ p{
 }
 
 
-
+/* layout size */
 
 main{
     width: 1280px;
     margin: 0 auto;
 }
 
+
+
+/* Header Style */
 
 header{
     padding: 24px 0;
@@ -120,13 +122,15 @@ header nav a:hover{
     padding: 16px;
     border: 1px solid #e4e4e4;
     border-radius: 16px;
+    transition: .5s;
 }
 .pillars div:hover{
-    background-color: #ffecec;
+    background-color: #2ef83852;
     box-shadow: inset;
     padding: 16px;
     border: 1px solid #e4e4e4;
     border-radius: 16px;
+    box-shadow: 1px 1px 10px #444444;
 }
 .pillars div img{
     padding: 8px 0;
@@ -226,6 +230,7 @@ header nav a:hover{
 }
 
 
+
 /* news start */
 
 .news-content{
@@ -310,6 +315,7 @@ header nav a:hover{
 .subscribe{
     background-color: #C6E4D6;
     border-radius: 16px;
+    margin: 48px 0;
     
 }
 .subscribe .subs-box{
@@ -319,6 +325,45 @@ header nav a:hover{
     width: 650px;
     margin: 0 auto;
 }
+.subscribe .subs-box .input-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+.subscribe .subs-box .input-style input{
+    width: 70%;
+    height: 64px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+.subscribe .subs-box .input-style input[type="text"] {
+    padding-left: 64px;
+    font-size: 16px
+
+  }
+.subscribe .subs-box .input-style input::placeholder{
+    font-size: 16px;
+    padding: 0 32px;
+}
+.subscribe .subs-box .input-style button{
+    width: 30%;
+    height: 64px;
+    background-color: #006A50;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    color: #ececec;
+    border-radius: 0 10px 10px 0;
+    transition: .5s;
+}
+.subscribe .subs-box .input-style button:hover{
+    background-color: #424242;
+}
+
+.subscribe .subs-box p{
+    padding: 8px 0 64px 0;
+}
 
 
 
@@ -327,6 +372,8 @@ header nav a:hover{
 /* footer start */
 footer{
     text-align: center;
+    box-sizing: border-box;
+    padding: 32px 0;
 }
 
 footer hr{
@@ -335,5 +382,11 @@ footer hr{
 footer img{
     height: 32px;
     width: 32px;
+    padding: 24px;
+    transition: .5s;
+}
+footer img:hover{
+    height: 48px;
+    width: 48px;
     padding: 16px;
 }
